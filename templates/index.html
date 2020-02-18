@@ -1,0 +1,4 @@
+{{ mydata|json_script:"mydata" }}
+<script>
+    const mydata = JSON.parse(document.getElementById('mydata').textContent);
+</script>
